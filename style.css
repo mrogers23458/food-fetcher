@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    font-size: 2rem;
+    width: 45vw;
+    margin: 2rem;
+}
+
+.recipe {
+    width: 40vw;
+    font-size: 1rem;
+}
+
+.link {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}

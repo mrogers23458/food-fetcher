@@ -32,10 +32,10 @@ function createMarkUp(data) {
   const id = data.id;
   const recipeUrl = `https://spoonacular.com/recipes/${titleUrl}-${id}`;
   const markup = `
-    <div>
-        <a href=${recipeUrl}>
-        <h1>${data.title}</h1>
-        <img src=${data.image}>
+    <div class="recipe container">
+        <a class="link container" href=${recipeUrl}>
+        <h1 class="title" >${data.title}</h1>
+        <img class="image" src=${data.image}>
         </a>
     </div>
     `;
